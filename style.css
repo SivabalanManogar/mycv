@@ -352,7 +352,7 @@ section {
 
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 4rem;
     align-items: start;
 }
@@ -536,4 +536,74 @@ section {
 
 .certificate-card a:hover {
   background: #1e40af;
+}
+
+/* Right Side Contact Box */
+.contact-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+}
+
+.contact-box:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.contact-box h3 {
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.contact-box p {
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+}
+
+.contact-highlights {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.contact-highlights li {
+    margin-bottom: 0.5rem;
+    color: var(--gray-800);
+    font-weight: 500;
+}
+
+/* Outline Button */
+.btn-outline {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: var(--primary-blue);
+    color: white;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: flex-start; /* 🔥 FIX */
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* 🔥 Align top */
+}
+.contact-box {
+    margin-top: 0; /* remove any extra top space */
+}
+.contact-content {
+    align-items: center;
 }

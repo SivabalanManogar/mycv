@@ -1,15 +1,15 @@
 // script.js
 // Projects data (view-only array)
 const projects = [
-    {
-        title: 'E-Commerce Dashboard',
-        description: "MSB Cart is a modern full-stack e-commerce web application that enables users to browse products, view details, manage a shopping cart, and securely authenticate, with a focus on performance, scalability, and a clean user interface.",
-        tech: ['React', 'Node.js', 'MongoDB', ],
-        links: {
-            demo: 'https://msb-cart.vercel.app/',
-            repo: 'https://github.com/SivabalanManogar/msb-cart-your-simple-carts'
-        }
-    },
+    // {
+    //     title: 'E-Commerce Dashboard',
+    //     description: "MSB Cart is a modern full-stack e-commerce web application that enables users to browse products, view details, manage a shopping cart, and securely authenticate, with a focus on performance, scalability, and a clean user interface.",
+    //     tech: ['React', 'Node.js', 'MongoDB', ],
+    //     links: {
+    //         demo: 'https://msb-cart.vercel.app/',
+    //         repo: 'https://github.com/SivabalanManogar/msb-cart-your-simple-carts'
+    //     }
+    // },
     
     {
         title: 'Carrer Assitant  Interface',
