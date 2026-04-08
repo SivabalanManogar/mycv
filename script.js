@@ -49,7 +49,7 @@ const projects = [
         }
     },
       {
-        title: 'Shooting Game ',
+        title: 'Shooting Games ',
         description: 'An engaging shooting game where players can test their reflexes and accuracy by aiming and shooting at moving targets, with score tracking and increasing difficulty levels.',
         tech: ['HTML5', 'CSS3', 'JavaScript',"React js",'Node js'],
         links: {
