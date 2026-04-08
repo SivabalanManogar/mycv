@@ -57,6 +57,14 @@ const projects = [
             repo: 'https://github.com/SivabalanManogar/shootingplay'
         }
     },
+    {
+        title: 'Share & Care ',
+        description: 'Share and Care is a social impact web application designed to reduce food and clothing waste while helping needy people across Tamil Nadu.',
+        links: {
+            demo: 'https://statuesque-marshmallow-3eeff0.netlify.app/',
+            repo: 'https://github.com/SivabalanManogar/share-give'
+        }
+    }
 ];
   
 
