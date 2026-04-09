@@ -607,3 +607,75 @@ section {
 .contact-content {
     align-items: center;
 }
+/* CONTACT SECTION FIX */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+/* Contact Box */
+.contact-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    width: 100%;
+}
+
+/* Buttons container */
+.contact-box .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Remove inline spacing issue */
+.btn-outline {
+    margin-left: 0;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    
+    .contact-content {
+        grid-template-columns: 1fr; /* stack vertically */
+        gap: 2rem;
+    }
+
+    .contact-box {
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-box h3 {
+        font-size: 1.3rem;
+    }
+
+    .contact-box p {
+        font-size: 0.95rem;
+    }
+
+    .contact-highlights {
+        padding-left: 0;
+    }
+
+    .contact-highlights li {
+        font-size: 0.95rem;
+    }
+
+    /* Buttons full width */
+    .contact-box .btn,
+    .contact-box .btn-outline {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+}
